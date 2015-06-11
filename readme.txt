@@ -1,32 +1,32 @@
 # pmxbone_rename ver.1.0
 
-Blender��mmd_tools���g�p��pmx/pmd��ǂݍ��񂾂̂��A
-fbx�ŏo�͂�Unreal Engine 4 (�ȉ�UE4)���Ŏg�p�������Ƃ��܂��B
-���̎����{��̃{�[��������������������������ɓ����Ȃ��P�[�X������܂��B
-�����������邽�߂ɂ̓{�[������K����ASCII�L�����N�^�[��
-�ύX����Ηǂ��̂ł����A
-�܂��ЂƂЂƂ��͂���̂����ɖʓ|�Ȃ̂ł�����x�������������A
-�����Ă��������Ȃ̂�UE4���Ń{�[�����^�[�Q�b�g���čė��p���₷���悤��
-�ėp�I�ȃ{�[�����ɕύX���悤�Ƃ����ړI�ŏ����ꂽ�̂��{�X�N���v�g�ł��B
+Blenderでmmd_toolsを使用しpmx/pmdを読み込んだのち、
+fbxで出力しUnreal Engine 4 (以下UE4)等で使用したいとします。
+この時日本語のボーン名が文字化けをおこし正常に動かないケースがあります。
+それを回避するためにはボーン名を適当にASCIIキャラクターへ
+変更すれば良いのですが、
+まずひとつひとつ入力するのが非常に面倒なのである程度自動化したい、
+そしてせっかくなのでUE4内でボーンリターゲットして再利用しやすいように
+汎用的なボーン名に変更しようという目的で書かれたのが本スクリプトです。
 
 
-# �g�p���@
+# 使用方法
 
-Blender�̃��j���[����e�L�X�g�G�f�B�^�[(Text Editor)���J���A
-���̃X�N���v�g���R�s�[�A���h�y�[�X�g�œ\�t���A
-���f���̃A�[�}�`���\���I������Ă����ԂŁu�X�N���v�g���s�v���Ă��������B
-���W���{�[���ɑΉ����Ă��܂����A�K�v�ɉ����ēK���ɕύX���Ă��������B
-
-
-# ���f��
-
-���̃X�N���v�g���g�p�������ʐ����������Ȃ�s���v�ɑ΂��Ă�
-��҂͈�؂̐ӔC�𕉂��܂���B
+Blenderのメニューからテキストエディター(Text Editor)を開き、
+このスクリプトをコピーアンドペーストで貼付け、
+モデルのアーマチャ―が選択されている状態で「スクリプト実行」してください。
+準標準ボーンに対応していますが、必要に応じて適当に変更してください。
 
 
-# ��҂ɂ���
+# お断り
 
-�����P (TakeponG)
+このスクリプトを使用した結果生じたいかなる不利益に対しても
+作者は一切の責任を負いません。
+
+
+# 作者について
+
+ちょむP (TakeponG)
 http://chomstudio.com
 https://twitter.com/chom
 

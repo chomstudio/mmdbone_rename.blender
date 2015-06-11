@@ -1,4 +1,4 @@
-# pmxbone_rename ver.1.0
+# mmdbone_rename ver.1.0
 
 Blenderでmmd_toolsを使用しpmx/pmdを読み込んだのち、
 fbxで出力しUnreal Engine 4 (以下UE4)等で使用したいとします。
